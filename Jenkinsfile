@@ -19,7 +19,7 @@ pipeline{
         }
         stage("Test"){
             steps{
-                echo "This is Testing a code"
+                echo "This is Testing a code with written test cases"
             }
         }
         stage("Push to DockerHub"){
